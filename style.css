@@ -1,1 +1,77 @@
+:root {
+        --cor-fundo:  #000000 ;
+    --cor-principal:  #000000 ;
+    --cor-secundaria: #6504aa ; 
+    --cor-destaque: #c300ff ;
+    --cor-texto: #FFFFFF ;
+    --cor-borda: #ffffff; 
+    --raio-borda: 8px; 
+    --transicao: 0.3s;
+    --imagem-fundo: url('fundo.png');
+}
 
+body {
+    background-image: var(--imagem-fundo);
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+    color: var(--cor-texto);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.caixa-principal {
+    background-color: var(--cor-principal); 
+    border-radius: var(--raio-borda); 
+    width: 90%;
+    max-width: 600px;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
+
+h1 {
+    color: var(--cor-destaque);
+}
+
+button {
+    background-color: var(--cor-secundaria); 
+    color: var(--cor-texto);
+    border: 2px solid var(--cor-borda); 
+    border-radius: var(--raio-borda); 
+    padding: 15px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color var(--transicao), color var(--transicao), border-color var(--transicao);
+}
+
+button:hover {
+    background-color: var(--cor-destaque);
+    color: var(--cor-principal);
+    border-color: var(--cor-destaque); 
+}
+
+.iniciar-btn {
+    background-color: var(--cor-secundaria); 
+    color: var(--cor-texto);
+    border: 2px solid var(--cor-borda); 
+    border-radius: var(--raio-borda); 
+    padding: 15px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color var(--transicao), color var(--transicao), border-color var(--transicao);
+}
+
+.iniciar-btn:hover {
+    background-color: var(--cor-destaque);
+    color: var(--cor-principal);
+    border-color: var(--cor-destaque); 
+}
+
+.hidden {
+    display: none;
+}
