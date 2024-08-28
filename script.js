@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', () => {
             alternativas: [
                 {
                     texto: " Desmatamento das florestas tropicais.",
-                    afirmacao: "acertou "
+                    afirmacao: "acertou."
                 },
                 {
                     texto: "O aumento da quantidade de água nos oceanos.",
