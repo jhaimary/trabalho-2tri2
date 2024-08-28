@@ -8,67 +8,67 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const perguntas = [
         {
-            enunciado: "Qual das seguintes opções é uma galáxia espiral?",
+            enunciado: "Qual é a principal causa do aquecimento global?",
             alternativas: [
                 {
-                    texto: "a)Galáxia de Andrômeda!",
-                    afirmacao: "para bem você acertou👏. "
+                    texto: " Desmatamento das florestas tropicais.",
+                    afirmacao: "acertou "
                 },
                 {
-                    texto: "b)Galáxia de Messier 87!",
-                    afirmacao: "você errou."
+                    texto: "O aumento da quantidade de água nos oceanos.",
+                    afirmacao: "errou."
                 }
             ]
         },
         {
-            enunciado: "Qual desses corpos celestes é um planeta do nosso sistema solar?",
+            enunciado: " Qual é o principal efeito da poluição do ar na saúde humana?",
             alternativas: [
                 {
-                    texto: "a) Alfa Centauri.",
-                    afirmacao: "na próxima você consegue ."
+                    texto: "Melhora na qualidade do sono",
+                    afirmacao: "na próxima você consegue."
                 },
                 {
-                    texto: "b) Saturno.",
-                    afirmacao: "eu sabia que você eria acertar 😄."
+                    texto: "Aumento da incidência de doenças respiratórias.",
+                    afirmacao: "eu sabia que você eria acertar."
                 }
             ]
         },
         {
-            enunciado: "Qual é o nome da nossa galáxia?",
+            enunciado: "Qual é uma das principais consequências do derretimento das calotas polares?",
             alternativas: [
                 {
-                    texto: "a) Via Láctea.",
-                    afirmacao: "você é inteligente ❤️."
+                    texto: "Elevação do nível do mar.",
+                    afirmacao: "inteligente."
                 },
                 {
-                    texto: "b) Galáxia de Andrômeda.",
-                    afirmacao: "não fica triste na próxima você acerta😕."
+                    texto: "Redução da biodiversidade marinha",
+                    afirmacao: "na próxima você acerta."
                 }
             ]
         },
         {
-            enunciado: "Qual desses é um buraco negro supermassivo??",
+            enunciado: " Qual é um dos principais impactos do uso excessivo de fertilizantes químicos na agricultura?",
             alternativas: [
                 {
-                    texto: "a) Buraco Negro de Sagittarius A*.",
-                    afirmacao: "você acertou continua assim."
+                    texto: " Poluição dos corpos d'água devido ao escoamento de nitratos.",
+                    afirmacao: "você acertou."
                 },
                 {
-                    texto: "b) Buraco Negro de Proxima Centauri.",
-                    afirmacao: "resposta errada😬!"
+                    texto: "Melhoria na qualidade do solo a longo prazo.",
+                    afirmacao: "resposta errada"
                 }
             ]
         },
         {
-            enunciado: "Qual dessas estrelas é mais quente?? ",
+            enunciado: "Qual é uma das principais fontes de poluição da água nos centros urbanos? ",
             alternativas: [
                 {
-                    texto: "a) Estrela de Barnard.",
-                    afirmacao: "wrong answer🥲."
+                    texto: " Descarte inadequado de produtos químicos e resíduos industriais.",
+                    afirmacao: "acertou! Parabens"
                 },
                 {
-                    texto: "b) Estrela Azul.",
-                    afirmacao: "right answer😄👏. "
+                    texto: "Uso de água em atividades recreativas, como esportes aquáticos.",
+                    afirmacao: "errou. "
                 }
             ]
         },
